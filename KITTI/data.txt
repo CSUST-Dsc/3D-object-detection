@@ -1,1 +1,5 @@
-添加数据文件
+添加数据文件:
+gt_database
+ImageSets
+testing
+training
