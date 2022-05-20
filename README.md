@@ -33,6 +33,7 @@
    pip install pybind11 
 ```
 2.spconv安装
+
 spconv 安装过程涉及cmake安装，参考[Ubuntu安装cmake](https://blog.csdn.net/weixin_38362784/article/details/109532934)
 ```python
    sudo apt-get install libboost-all-dev
