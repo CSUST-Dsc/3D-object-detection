@@ -38,7 +38,7 @@ spconv 安装过程涉及cmake安装，参考[Ubuntu安装cmake](https://blog.cs
    cd ./dist && pip install *
 ```
 ### Installation
-1. mmdet/ops中，编译 C++/CUDA模块
+1.mmdet/ops中，编译 C++/CUDA模块
 ```python
    cd mmdet/ops/points_op
    python setup.py build_ext --inplace
@@ -47,7 +47,7 @@ spconv 安装过程涉及cmake安装，参考[Ubuntu安装cmake](https://blog.cs
    cd mmdet/ops/pointnet2
    python setup.py build_ext --inplace
 ```
-2. ~/.bashrc中，加环境变量
+2.~/.bashrc中，加环境变量
 ```python
    export NUMBAPRO_CUDA_DRIVER=/usr/lib/x86_64-linux-gnu/libcuda.so
    export NUMBAPRO_NVVM=/usr/local/cuda/nvvm/lib64/libnvvm.so
