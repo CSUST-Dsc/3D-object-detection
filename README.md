@@ -118,7 +118,7 @@ Eval Model with single GPU
 ## 评估结果
 训练90Epoch的结果
 
-![图](C:\Users\DSC\Desktop\大论文\图.png)
+![图](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/picture.png)
 
 
 
