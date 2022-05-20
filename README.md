@@ -97,7 +97,9 @@ spconv 安装过程涉及cmake安装，参考[Ubuntu安装cmake](https://blog.cs
        |   └── velodyne_reduced			# empty folder
 ```
 3.下载ImageSets
+
 下载地址：https://xiaozhichen.github.io/files/mv3d/imagesets.tar.gz
+
 放置位置：放在KITTI目录下
 
 4.生成数据集
