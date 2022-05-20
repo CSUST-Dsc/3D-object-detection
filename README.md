@@ -1,5 +1,6 @@
 # 3D vehicle detection
 ### 基于注意力机制的3D点云车辆检测算法研究
+###[发表的论文](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2021&filename=XTYY202112027&uniplatform=NZKPT&v=gSJgB_xrLlCX7z5SdaHhvPrm18tW3zDGfduFyUc80twkh42cdD2ebf-NKLkOl-DA)
 ## 实验代码环境配置
 ### Environment
 ```python
