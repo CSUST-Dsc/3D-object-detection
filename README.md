@@ -116,13 +116,15 @@ Eval Model with single GPU
    python ./tools/test.py ./configs/car_cfg.py ./work_dir/checkpoint_epoch_90.pth 
 ```
 ## 评估结果
-KITTI离线测试集训练90Epoch的结果
+### KITTI离线测试集训练90Epoch的结果展示
 
 ![图1](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result1.png)
 
-提交KITTI线上测试集结果
+### 提交KITTI线上测试集结果展示
 
 ![图2](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result2.png)
+
+
 
 
 
