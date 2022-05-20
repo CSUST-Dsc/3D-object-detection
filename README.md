@@ -75,6 +75,7 @@ spconv 安装过程涉及cmake安装，参考[Ubuntu安装cmake](https://blog.cs
 - Left color images of object data set (12 GB): for visualization of predictions
 
 2.整理KITTI数据集目录：
+
 注意需要创建空的velodyne_reduced文件夹，用来放置后续筛选得到的视锥体内的点云数据。
 ```python
 └── KITTI
