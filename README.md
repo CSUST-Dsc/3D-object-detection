@@ -60,13 +60,15 @@ spconv 安装过程涉及cmake安装，参考[Ubuntu安装cmake](https://blog.cs
    pip install mmcv -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 4.安装mmdet
+
 即将本地项目中的mmdet加入site-package中，使得项目可以直接调用。源码中没有setup.py，可以用使用mmdetection的setup.py（将requirement相关注释掉）。
 ```python
    python setup.py develop
 ```
 ## Data Preparation
 1.下载数据集
-- [KITTI数据集官网](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)下载如下数据：
+
+[KITTI数据集官网](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)下载如下数据：
 - Velodyne point clouds (29 GB): input data to VoxelNet
 - Training labels of object data set (5 MB): input label to VoxelNet
 - Camera calibration matrices of object data set (16 MB): for visualization of predictions
