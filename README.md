@@ -6,6 +6,8 @@
 
 ![图0](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result0.png)
 
+![图-1](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result-1.png)
+
 ## 实验代码环境配置
 ### Environment
 ```python
