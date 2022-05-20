@@ -124,6 +124,8 @@ Eval Model with single GPU
 
 ![图2](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result2.png)
 
+![图3](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result3.png)
+
 
 
 
