@@ -118,7 +118,7 @@ Eval Model with single GPU
 ## 评估结果
 KITTI离线测试集训练90Epoch的结果
 
-![图](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/picture.png)
+![图](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result1.png)
 
 
 
