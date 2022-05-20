@@ -66,11 +66,12 @@ spconv 安装过程涉及cmake安装，参考[Ubuntu安装cmake](https://blog.cs
 ```
 ## Data Preparation
 1.下载数据集
-[KITTI数据集官网](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)下载如下数据：
+- [KITTI数据集官网](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)下载如下数据：
 - Velodyne point clouds (29 GB): input data to VoxelNet
 - Training labels of object data set (5 MB): input label to VoxelNet
 - Camera calibration matrices of object data set (16 MB): for visualization of predictions
 - Left color images of object data set (12 GB): for visualization of predictions
+
 2.整理KITTI数据集目录：
 注意需要创建空的velodyne_reduced文件夹，用来放置后续筛选得到的视锥体内的点云数据。
 ```python
@@ -105,6 +106,7 @@ Eval Model with single GPU
 ```
 ## 评估结果
 训练90Epoch的结果
+
 ![图](C:\Users\DSC\Desktop\大论文\图.png)
 
 
