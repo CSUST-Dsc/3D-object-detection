@@ -121,7 +121,7 @@ KITTI离线测试集训练90Epoch的结果
 ![图](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result1.png)
 
 提交KITTI线上测试集结果
-！[图](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result2.png)
+！[图2](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result2.png)
 
 
 
