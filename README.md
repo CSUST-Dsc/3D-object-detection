@@ -2,9 +2,13 @@
 ### 基于注意力机制的3D点云车辆检测算法研究
 ### [发表的论文链接](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2021&filename=XTYY202112027&uniplatform=NZKPT&v=gSJgB_xrLlCX7z5SdaHhvPrm18tW3zDGfduFyUc80twkh42cdD2ebf-NKLkOl-DA)
 
-### 算法模型图
+### 算法模型图-注意力模型
 
 ![图0](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result0.png)
+
+### 算法模型图-感兴趣区域聚合模型
+
+![图0](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result-1.png)
 
 ## 实验代码环境配置
 ### Environment
