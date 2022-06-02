@@ -8,7 +8,38 @@
 
 ### 算法模型图-感兴趣区域聚合模型
 
-![图0](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result-1.png)
+![图0](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result-1.png)class SimpleVoxel(nn.Module):
+
+感兴趣特征聚合模块代码
+```python
+   class VoxelFeatNet(nn.Module):
+        def __init__(self,
+                 num_input_features=4,
+                 use_norm=True,
+                 num_filters=[32, 128],
+                 with_distance=False,
+                 name='VoxelFeatureExtractor'):
+        super(SimpleVoxel, self).__init__()
+        self.name = name
+        self.num_input_features = num_input_features
+
+        # features 是 N*K*3 的张量，跟 pointnet++ 的 sample 和 group 很像
+        # 它在 KITTILiDAR 类中就已经做过了处理
+        # num_voxels 是 N*1 的张量
+
+       def forward(self, features, num_voxels):
+        #return features
+        # features: [concated_num_points, num_voxel_size, 3(4)]
+        # num_voxels: [concated_num_points]
+        # points_mean 是 K 个近邻点的中心点位置，oncat
+        # points_mean
+        # 保存在 coordinate 变量中
+        points_mean = features[:, :, :self.num_input_features].sum(
+            dim=1, keepdim=False) / num_voxels.type_as(features).view(-1, 1)
+        return points_mean.contiguous()
+        # SimpleVoxel输出一个 N ∗ K ∗ 4 体素化点云， 4 代表点云xyz值和雷达强度项。
+
+```
 
 ## 实验代码环境配置
 ### Environment
