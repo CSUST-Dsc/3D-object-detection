@@ -10,7 +10,7 @@
 
 ![图0](https://github.com/CSUST-Dsc/3D-object-detection/blob/main/results/result-1.png)
 
-感兴趣特征聚合模块核心代码
+感兴趣区域特征聚合模块核心代码
 ```python
    class SimpleVoxel(nn.Module):
         def __init__(self,
